@@ -71,7 +71,7 @@ const APP = {
     //Check if serviceworkers are supported
     if ('serviceWorker' in navigator) {
       // Supported! then Register the sw.js file
-      navigator.serviceWorker.register('./sw.js');
+      navigator.serviceWorker.register('sw.js');
     }
   },
   handleError(err) {

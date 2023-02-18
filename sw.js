@@ -2,11 +2,11 @@ const version = 52;
 const cacheName = `regu0005.${version}`; 
 let isOnline = true;
 const cacheItems = [
-  '/',
-  './index.html',
-  './404.html',
-  './css/main.css',
-  './js/app.js',
+  '/service-workers/',
+  '/service-workers/index.html',
+  '/service-workers/404.html',
+  '/service-workers/css/main.css',
+  '/service-workers/js/app.js',
   'https://placedog.net/1024/300',
   'https://placedog.net/150/150',
   'https://placedog.net/200/200',
